@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <div id="userGoalDiv">
+        <input placeholder="Enter Goal" id="userGoal"></input>
+        <button onclick="getUserGoal()">Send</button>
+    </div>
+    <div id="userDateDiv">
+        <input placeholder="Enter Goal Date" id="userDate"></input>
+        <button onclick="getDays()">Send</button>
+    </div>
+        
+    <h1></h1><h1 id="user-defined-goal" style="display: inline;"></h1>
+    <script src="index.js"></script>
+    <div id="counter">
+        <h1 id="count"></h1><br>
+      <h1 id="text">days left</h1>
+    </div>
+ </div>
+</body>
+</html>

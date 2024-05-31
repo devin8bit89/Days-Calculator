@@ -1,0 +1,50 @@
+input {
+    border-radius: 20px;
+    border: 20px solid-black; 
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+  border-color: black;
+}
+button {
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    background-color: violet;
+    margin: 10px;
+}
+body {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: difference;
+  background-color: violet;
+    
+}
+
+h1 {
+    margin: 5px;
+    font-size: 50px;
+  
+    
+}
+#count {
+  font-size: 100px;
+  
+}
+
+#text {
+  display: none;
+}
+#main {
+  background-color: white;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 2px 2px 5px;
+}
